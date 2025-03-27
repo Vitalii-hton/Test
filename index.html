@@ -10,15 +10,14 @@
 
     <!-- Подключаем AR.js с последней версии -->
     <script src="https://cdn.jsdelivr.net/npm/ar.js@3.3.2/aframe/build/aframe-ar.js"></script>
-    
   </head>
   <body style="margin: 0; overflow: hidden;">
     <!-- Создание сцены A-Frame с поддержкой AR.js -->
     <a-scene embedded arjs>
-      <!-- Добавляем маркер для распознавания картинки. Важно указать, что будет происходить при её сканировании -->
-      <a-marker preset="custom" type="pattern" url="https://raw.githubusercontent.com/Vitalii-hton/Test/main/pattern-photo_2025-03-26_19-02-20.patt">
-        <!-- Место для 3D-модели. Используем модель GLTF для интеграции в AR-сцену -->
-        <a-entity gltf-model="https://cdn.jsdelivr.net/gh/Vitalii-hton/Test@main/3.glb" scale="0.5 0.5 0.5" position="0 0 0"></a-entity>
+      <!-- Используем стандартный маркер "hiro" для теста -->
+      <a-marker preset="hiro">
+        <!-- Место для 3D-модели, увеличиваем масштаб -->
+        <a-entity gltf-model="https://cdn.jsdelivr.net/gh/Vitalii-hton/Test@main/3.glb" scale="2 2 2" position="0 0 0"></a-entity>
       </a-marker>
 
       <!-- Камера для AR-сцены -->
