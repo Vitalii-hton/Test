@@ -16,9 +16,16 @@
     <a-scene embedded arjs>
       <!-- Используем стандартный маркер "hiro" для теста -->
       <a-marker preset="hiro">
-        <!-- Место для 3D-модели, увеличиваем масштаб -->
-        <a-entity gltf-model="https://cdn.jsdelivr.net/gh/Vitalii-hton/Test@main/3.glb" scale="2 2 2" position="0 0 0"></a-entity>
+        <!-- Вместо 3D-модели используем куб -->
+        <a-box color="red" scale="1 1 1" position="0 0 0"></a-box>
       </a-marker>
+
+      <!-- Камера для AR-сцены -->
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
+
 
       <!-- Камера для AR-сцены -->
       <a-entity camera></a-entity>
