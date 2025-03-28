@@ -8,29 +8,15 @@
     <!-- Подключаем A-Frame -->
     <script src="https://cdn.jsdelivr.net/npm/aframe@1.2.0/dist/aframe.min.js"></script>
 
-    <!-- Подключаем AR.js с последней версии -->
+    <!-- Подключаем AR.js -->
     <script src="https://cdn.jsdelivr.net/npm/ar.js@3.3.2/aframe/build/aframe-ar.js"></script>
   </head>
   <body style="margin: 0; overflow: hidden;">
-    <!-- Создание сцены A-Frame с поддержкой AR.js -->
     <a-scene embedded arjs>
-      <!-- Используем стандартный маркер "hiro" для теста -->
       <a-marker preset="hiro">
-        <!-- Вместо 3D-модели используем куб -->
-        <a-box color="red" scale="1 1 1" position="0 0 0"></a-box>
+        <a-box position="0 0 0" material="color: red;"></a-box>
       </a-marker>
-
-      <!-- Камера для AR-сцены -->
       <a-entity camera></a-entity>
     </a-scene>
   </body>
 </html>
-
-
-      <!-- Камера для AR-сцены -->
-      <a-entity camera></a-entity>
-    </a-scene>
-  </body>
-</html>
-
-
