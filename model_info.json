@@ -1,3 +1,12 @@
 {
-  "modelURL": "https://github.com/Vitalii-hton/Test/raw/main/weisworld18.usdz"
+  "sceneId": "scene1",
+  "targetImage": {
+    "name": "marker1",
+    "imageURL": "https://raw.githubusercontent.com/Vitalii-hton/Test/main/marker1.png",
+    "physicalWidth": 0.25
+  },
+  "model": {
+    "usdzURL": "https://github.com/Vitalii-hton/Test/raw/main/weisworld18.usdz",
+    "scale": 1.0
+  }
 }
