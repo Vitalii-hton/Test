@@ -1,3 +1,10 @@
 {
-  "modelURL": "https://github.com/Vitalii-hton/Test/raw/main/weisworld18.usdz"
+  "targetImage": {
+    "name": "marker1",
+    "imageURL": "https://raw.githubusercontent.com/Vitalii-hton/Test/main/marker1.png",
+    "physicalWidth": 0.25
+  },
+  "model": {
+    "url": "https://github.com/Vitalii-hton/Test/raw/main/weisworld18.usdz"
+  }
 }
