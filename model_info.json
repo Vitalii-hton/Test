@@ -6,7 +6,7 @@
     "physicalWidth": 0.25
   },
   "model": {
-    "modelURL": "https://github.com/Vitalii-hton/Test/raw/main/weisworld18.usdz",
+    "usdzURL": "https://github.com/Vitalii-hton/Test/raw/main/weisworld18.usdz",
     "scale": 1.0,
     "position": [0, 0, 0],
     "rotation": [0, 0, 0]
