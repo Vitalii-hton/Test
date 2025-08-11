@@ -1,12 +1,12 @@
 {
   "targetImage": {
     "name": "MyTarget",
-    "imageURL": "https://example.com/target.jpg",
+    "imageURL": "https://raw.githubusercontent.com/Vitalii-hton/Test/main/marker1.png",
     "physicalWidth": 0.2,
     "url": "https://example.com/details"
   },
   "model": {
-    "usdzURL": "https://example.com/model.usdz",
+    "usdzURL": "https://github.com/Vitalii-hton/Test/raw/main/weisworld18.usdz",
     "scale": 1.0
   }
 }
