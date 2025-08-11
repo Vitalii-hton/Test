@@ -2,7 +2,7 @@
   "targetImage": {
     "name": "marker1",
     "imageURL": "https://raw.githubusercontent.com/Vitalii-hton/Test/main/marker1.png",
-    "physicalWidth": 0.25
+    "physicalWidth": 0.25,
     "url": "https://example.com/details"
   },
   "model": {
